@@ -9,20 +9,19 @@ int main ()
  printf("<hi>99</hi>\n");
  printf("<table>\n");
  
-　for (int i = 0;i<10;i++)
-　{ 
-  　printf("<tr>"\n);
-   for (int j = 0;j<10;j++)
-   { 
-     if(i==0)
-　　{
-　　　printf("<th>");
-　　}else{
-	printf("<th>%d",j)
-   }
- }
-
-
+	for (int i = 0;i<10;i++){ 
 	
+	 printf("<tr>"\n);
+   
+	 for (int j = 0;j<10;j++){ 
+     
+	   if(i==0){
+		printf("<th>");
+		
+	   }else{
+	
+		printf("<th>%d",j)
+	   }
+ }	
  return 0 ;
 }
